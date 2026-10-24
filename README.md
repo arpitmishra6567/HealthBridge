@@ -10,7 +10,10 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Google Gemini API](https://img.shields.io/badge/Google_Gemini-3.5_Flash-8E75C2?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
-[![Deploy with Vercel](https://img.shields.io/badge/Vercel-Deploy_Ready-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Deploy with Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://healthbridge-one-gilt.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-healthbridge.vercel.app-0D9488?style=for-the-badge&logo=vercel&logoColor=white)](https://healthbridge-one-gilt.vercel.app)
+
+> 🌐 **Live Production Application:** [https://healthbridge-one-gilt.vercel.app](https://healthbridge-one-gilt.vercel.app)
 
 ---
 
