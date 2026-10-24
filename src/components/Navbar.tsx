@@ -21,6 +21,7 @@ import {
   Stethoscope,
   Info,
   ShieldAlert,
+  Activity,
 } from 'lucide-react';
 
 export default function Navbar() {
@@ -100,7 +101,11 @@ export default function Navbar() {
             <Link href="/find-doctors" className="btn btn-ghost text-xs font-semibold px-2.5" id="nav-find-doctors">
               Find Doctors
             </Link>
-            <Link href="/ai-assistant" className="btn btn-ghost text-xs font-semibold px-2.5 flex items-center gap-1 text-teal-600 dark:text-teal-400" id="nav-ai-assistant">
+            <Link href="/symptom-checker" className="btn btn-ghost text-xs font-semibold px-2.5 flex items-center gap-1 text-teal-600 dark:text-teal-400" id="nav-symptom-checker">
+              <Activity className="w-3.5 h-3.5" />
+              Symptom Checker
+            </Link>
+            <Link href="/ai-assistant" className="btn btn-ghost text-xs font-semibold px-2.5 flex items-center gap-1" id="nav-ai-assistant">
               <Bot className="w-3.5 h-3.5" />
               AI Navigator
             </Link>
@@ -180,7 +185,10 @@ export default function Navbar() {
               <Link href="/find-doctors" className="sidebar-link" onClick={() => setMobileOpen(false)}>
                 <Search className="w-4 h-4" /> Find Doctors
               </Link>
-              <Link href="/ai-assistant" className="sidebar-link text-teal-600 dark:text-teal-400" onClick={() => setMobileOpen(false)}>
+              <Link href="/symptom-checker" className="sidebar-link text-teal-600 dark:text-teal-400" onClick={() => setMobileOpen(false)}>
+                <Activity className="w-4 h-4" /> Symptom Checker
+              </Link>
+              <Link href="/ai-assistant" className="sidebar-link" onClick={() => setMobileOpen(false)}>
                 <Bot className="w-4 h-4" /> AI Health Navigator
               </Link>
               <Link href="/medical-vault" className="sidebar-link" onClick={() => setMobileOpen(false)}>
