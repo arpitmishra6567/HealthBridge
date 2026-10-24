@@ -13,6 +13,7 @@ import Footer from '@/components/Footer';
 import { analyzeSymptoms, searchBySymptom } from '@/lib/symptomAnalyzer';
 import type { AnalysisResult, FollowUpQuestion, DoctorRecommendation } from '@/lib/symptomAnalyzer';
 import { doctors } from '@/lib/mockData';
+import Interactive3DAnatomy from '@/components/Interactive3DAnatomy';
 import {
   Search,
   Sparkles,
@@ -349,6 +350,17 @@ export default function SymptomCheckerPage() {
           </div>
         </div>
       </section>
+
+      {/* ═══════════════════════════════════════════
+          INTERACTIVE 3D FULL BODY & SYMPTOM ATLAS
+          ═══════════════════════════════════════════ */}
+      {step.type === 'input' && (
+        <section className="py-12 bg-slate-50 dark:bg-slate-900/40 border-t" style={{ borderColor: 'var(--border-color)' }}>
+          <div className="container mx-auto px-4 lg:px-6">
+            <Interactive3DAnatomy />
+          </div>
+        </section>
+      )}
 
       {/* ═══════════════════════════════════════════
           ANALYZING STATE — Animated Processing
