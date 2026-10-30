@@ -40,7 +40,7 @@ const QUICK_SYMPTOMS = [
   { label: '🦷 Toothache', query: 'toothache', specialty: 'Dentist' },
 ];
 
-const CITIES = ['Mumbai', 'Delhi NCR', 'Bengaluru', 'Pune', 'Hyderabad', 'Chennai'];
+const CITIES = ['Kanpur', 'Lucknow', 'Varanasi', 'Prayagraj', 'Agra', 'Noida'];
 
 function FindDoctorsContent() {
   const searchParams = useSearchParams();
@@ -49,7 +49,7 @@ function FindDoctorsContent() {
 
   const [searchQuery, setSearchQuery] = useState(initialQuery);
   const [selectedSpecialty, setSelectedSpecialty] = useState(initialSpecialty);
-  const [selectedCity, setSelectedCity] = useState('Mumbai');
+  const [selectedCity, setSelectedCity] = useState('Kanpur');
   const [maxFee, setMaxFee] = useState(2000);
   const [verifiedOnly, setVerifiedOnly] = useState(false);
   const [availableToday, setAvailableToday] = useState(false);

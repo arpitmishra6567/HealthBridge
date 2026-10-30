@@ -34,7 +34,7 @@ import {
   PhoneCall,
 } from 'lucide-react';
 
-const CITIES = ['Mumbai', 'Delhi NCR', 'Bengaluru', 'Pune', 'Hyderabad', 'Chennai'];
+const CITIES = ['Kanpur', 'Lucknow', 'Varanasi', 'Prayagraj', 'Agra', 'Noida'];
 
 const HERO_SYMPTOMS = [
   { label: '🤒 Viral Fever', query: 'fever' },
@@ -48,7 +48,7 @@ const HERO_SYMPTOMS = [
 
 export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCity, setSelectedCity] = useState('Mumbai');
+  const [selectedCity, setSelectedCity] = useState('Kanpur');
   const [searchFocused, setSearchFocused] = useState(false);
 
   // Quick filter for Top Doctors Showcase

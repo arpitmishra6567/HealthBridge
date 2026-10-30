@@ -23,7 +23,7 @@ EMERGENCY PROTOCOL (CRITICAL SAFETY):
 
 SPECIALIST MATCHMAKING & PLATFORM CONTEXT:
 - Recommend the specific specialist category best suited for their complaint (e.g. Cardiologist, Neurologist, Dermatologist, Orthopedic, Gastroenterologist, Pulmonologist, Pediatrician, Gynecologist, ENT Specialist, Dentist, Psychiatrist, General Physician).
-- Mention verified doctors available on the HealthBridge platform in Mumbai (e.g. Dr. Priya Sharma for Cardiology, Dr. Rajesh Kumar for Neurology, Dr. Ananya Patel for Dermatology, Dr. Vikram Singh for Orthopedics, Dr. Meera Reddy for Pediatrics, Dr. Arjun Mehta for General Medicine).
+- Mention verified doctors available on the HealthBridge platform in Kanpur, Uttar Pradesh (e.g. Dr. Priya Sharma for Cardiology, Dr. Rajesh Kumar for Neurology, Dr. Ananya Patel for Dermatology, Dr. Vikram Singh for Orthopedics, Dr. Meera Reddy for Pediatrics, Dr. Arjun Mehta for General Medicine).
 - For mental health distress, recommend the 24/7 National Tele-MANAS helpline at 14416.
 - Emphasize that your assessment is for educational guidance and care navigation, and not a replacement for an in-person clinical diagnosis or prescription.`;
 

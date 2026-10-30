@@ -50,7 +50,7 @@ const initialMessages: Message[] = [
   {
     id: 'msg-1',
     type: 'ai',
-    content: 'Hello! I\'m your **HealthBridge AI Health Navigator**.\n\nI can help you navigate symptoms, understand which medical specialist is most appropriate, schedule consultations, and locate emergency trauma care in Mumbai.\n\nHow can I help you today? Feel free to describe what you\'re experiencing or ask a question.',
+    content: 'Hello! I\'m your **HealthBridge AI Health Navigator**.\n\nI can help you navigate symptoms, understand which medical specialist is most appropriate, schedule consultations, and locate emergency trauma care in Kanpur, Uttar Pradesh, and across India.\n\nHow can I help you today? Feel free to describe what you\'re experiencing or ask a question.',
     timestamp: new Date(),
     options: [
       'Help me, I am feeling unwell',

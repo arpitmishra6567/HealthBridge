@@ -12,16 +12,14 @@ import {
   Sun,
   Moon,
   User,
-  ChevronDown,
   Heart,
   LogIn,
-  AlertTriangle,
   FolderLock,
   Bot,
-  Stethoscope,
   Info,
   ShieldAlert,
   Activity,
+  Mail,
 } from 'lucide-react';
 
 export default function Navbar() {
@@ -91,7 +89,7 @@ export default function Navbar() {
               <div className="flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-medium border-l"
                 style={{ borderColor: 'var(--border-color)', color: 'var(--text-secondary)' }}>
                 <MapPin className="w-3 h-3 text-teal-600" />
-                <span>Mumbai</span>
+                <span>Kanpur, UP</span>
               </div>
             </div>
           </form>
@@ -120,6 +118,9 @@ export default function Navbar() {
             </Link>
             <Link href="/about" className="btn btn-ghost text-xs font-semibold px-2" id="nav-about">
               About
+            </Link>
+            <Link href="/about#contact" className="btn btn-ghost text-xs font-semibold px-2" id="nav-contact">
+              Contact
             </Link>
 
             {/* Theme Toggle */}
@@ -202,6 +203,9 @@ export default function Navbar() {
               </Link>
               <Link href="/about" className="sidebar-link" onClick={() => setMobileOpen(false)}>
                 <Info className="w-4 h-4" /> About HealthBridge
+              </Link>
+              <Link href="/about#contact" className="sidebar-link" onClick={() => setMobileOpen(false)}>
+                <Mail className="w-4 h-4" /> Contact Us
               </Link>
 
               <hr style={{ borderColor: 'var(--border-color)' }} className="my-2" />

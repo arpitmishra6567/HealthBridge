@@ -170,28 +170,34 @@ export default function EmergencyPage() {
                   Nearby 24/7 Emergency Rooms & Trauma Centers
                 </h2>
                 <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                  Simulated demonstration centers in Mumbai with active emergency casualty departments
+                  Simulated demonstration centers in Kanpur, Uttar Pradesh with active emergency casualty departments
                 </p>
               </div>
 
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 <button
                   onClick={() => setSelectedArea('All')}
                   className={`btn btn-xs ${selectedArea === 'All' ? 'btn-primary' : 'btn-secondary'}`}
                 >
-                  All Mumbai
+                  All Kanpur
                 </button>
                 <button
                   onClick={() => setSelectedArea('Central')}
                   className={`btn btn-xs ${selectedArea === 'Central' ? 'btn-primary' : 'btn-secondary'}`}
                 >
-                  Central (Parel)
+                  Central (Swaroop Nagar / Civil Lines)
                 </button>
                 <button
-                  onClick={() => setSelectedArea('Western')}
-                  className={`btn btn-xs ${selectedArea === 'Western' ? 'btn-primary' : 'btn-secondary'}`}
+                  onClick={() => setSelectedArea('Sarvodaya')}
+                  className={`btn btn-xs ${selectedArea === 'Sarvodaya' ? 'btn-primary' : 'btn-secondary'}`}
                 >
-                  Western Suburbs
+                  Sarvodaya Nagar
+                </button>
+                <button
+                  onClick={() => setSelectedArea('Kalyanpur')}
+                  className={`btn btn-xs ${selectedArea === 'Kalyanpur' ? 'btn-primary' : 'btn-secondary'}`}
+                >
+                  Kalyanpur
                 </button>
               </div>
             </div>

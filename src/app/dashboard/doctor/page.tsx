@@ -416,7 +416,7 @@ export default function DoctorDashboardPage() {
                       <BadgeCheck className="w-4 h-4" /> State Medical Council Status: Verified Active
                     </p>
                     <p className="text-emerald-700 dark:text-emerald-400 mt-1">
-                      Registration Certificate verified against the Maharashtra Medical Council Registry.
+                      Registration Certificate verified against the Uttar Pradesh Medical Council Registry.
                     </p>
                   </div>
 
@@ -427,7 +427,7 @@ export default function DoctorDashboardPage() {
                     </div>
                     <div>
                       <span style={{ color: 'var(--text-tertiary)' }}>Medical Council:</span>
-                      <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>Maharashtra Medical Council</p>
+                      <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>Uttar Pradesh Medical Council (UPMC)</p>
                     </div>
                     <div>
                       <span style={{ color: 'var(--text-tertiary)' }}>Qualifications:</span>
