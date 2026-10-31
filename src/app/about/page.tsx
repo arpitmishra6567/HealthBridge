@@ -89,7 +89,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     role: 'Backend Developer & Database',
     description: 'Working on backend architecture, APIs and database management.',
     linkedInUrl: 'https://www.linkedin.com/in/bhanu-pratap-singh-cs',
-    initials: 'AT',
+    initials: 'BS',
     avatarBg: 'bg-gradient-to-br from-indigo-600 via-slate-700 to-slate-900 text-white',
   },
   {
@@ -97,7 +97,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     role: 'AI/ML & Data',
     description: 'Developing AI-assisted capabilities and data-related functionality.',
     linkedInUrl: 'https://www.linkedin.com/in/gopalgupta-tech',
-    initials: 'RT',
+    initials: 'GG',
     avatarBg: 'bg-gradient-to-br from-emerald-600 via-teal-700 to-slate-900 text-white',
   },
 ];

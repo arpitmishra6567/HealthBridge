@@ -99,10 +99,10 @@ export default function Footer() {
               </span>
             </div>
 
-            {/* Academic Notice */}
+            {/* Open-source Notice */}
             <div className="p-3 rounded-xl border max-w-sm text-[11px] leading-relaxed"
               style={{ backgroundColor: 'var(--bg-primary)', borderColor: 'var(--border-color)', color: 'var(--text-tertiary)' }}>
-              <strong>🎓 Academic Notice:</strong> Built for a college mini-project evaluation. All doctor profiles, clinics, and medical records are synthetic demonstration data.
+              <strong>🌐 Open-source Notice:</strong> Built for community collaboration. All doctor profiles, clinics, and medical records are synthetic demonstration data.
             </div>
           </div>
 
