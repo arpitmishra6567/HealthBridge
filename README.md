@@ -286,7 +286,7 @@ Expected output:
 
 ## ⚖️ Ethical & Medical Disclaimers
 
-1. **Demonstration & Educational Prototype:** HealthBridge is designed and built for academic demonstration in digital healthcare, medical triage, and healthcare informatics.
+1. **Open-source Demonstration:** HealthBridge is an open-source platform for exploring digital healthcare, medical triage, and healthcare informatics.
 2. **Not Medical Advice:** The AI Health Navigator provides educational symptom guidance and care-navigation suggestions only. It is not an autonomous physician and does not independently diagnose medical conditions or prescribe medications.
 3. **Emergency Primacy:** In any life-threatening situation or emergency, users must immediately contact national emergency medical services (**112** or **108** in India) or visit the nearest hospital emergency department.
 4. **Synthetic Data Notice:** All doctor profiles, clinics, registrations, patient records, and hospital occupancy figures are synthetic demonstration records for UI/UX demonstration.

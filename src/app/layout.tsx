@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "HealthBridge — Right Care. Right Doctor. Right Time.",
-  description: "AI-powered healthcare navigation platform. Find verified specialists, get AI-assisted symptom triage, book appointments, and manage your medical records securely. A college mini project demonstration.",
+  description: "Open-source AI-powered healthcare navigation platform. Find verified specialists, get AI-assisted symptom triage, book appointments, and manage your medical records securely.",
   keywords: "healthcare, doctor booking, AI triage, medical records, specialist, India",
 };
 
