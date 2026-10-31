@@ -1,3 +1,4 @@
+// HealthBridge
 // ========================================================
 // HEALTHBRIDGE — CLINICAL TRIAGE & INTENT ENGINE (FALLBACK)
 // Provides resilient offline symptom parsing & rule matching
