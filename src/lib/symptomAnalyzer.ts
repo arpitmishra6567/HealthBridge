@@ -1,3 +1,4 @@
+// HealthBridge
 // ============================================================
 // HEALTHBRIDGE — SYMPTOM ANALYSIS ENGINE
 // Maps symptoms → specialties with confidence, follow-up Qs,
